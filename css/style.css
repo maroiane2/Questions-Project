@@ -1,3 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
 body{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* nav */
+
+nav h1 {
+    margin: 50px;
+    font-size: xx-large;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.Que {
+    border: 2px solid black;
+    background-color: #f0f8ff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+    padding-top: 5%;
+}
+.Que:hover {box-shadow: 3px 7px 5px 2px #666;}
+
+.Que:active {box-shadow: 1px 5px 3px 2px #666 inset;}
+
+img {
+    width: 100px;
+    height: 100px;
 }
