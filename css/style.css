@@ -8,6 +8,7 @@
 body{
     background-color: rgb(255, 255, 255);
     text-align: center;
+    background-color: rgb(236, 246, 255);
 }
 
 /* nav */
@@ -28,7 +29,7 @@ main {
 
 .Que {
     border: 2px solid black;
-    background-color: #f0f8ff;
+    background-color: #b0dfe4;
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
