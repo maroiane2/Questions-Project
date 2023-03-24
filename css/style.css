@@ -36,13 +36,15 @@ main {
     margin: 15px;
     width: 250px;
     height: 200px;
-    padding-top: 5%;
 }
+
 .Que:hover {box-shadow: 3px 7px 5px 2px #666;}
 
 .Que:active {box-shadow: 1px 5px 3px 2px #666 inset;}
 
 img {
+    position: relative;
     width: 100px;
     height: 100px;
+    margin-top: 15%;
 }

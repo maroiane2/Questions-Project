@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylePag2.css">
+</head>
+
+<body>
+    <div class="boxAll">
+        <div class="geogr">
+            <div style="display: flex;" class="name">
+                <img width="30px" height="30px" src="icon/globe.png" alt="">
+                <h3>geography</h3>
+            </div>
+
+            <div class="time" id="time">00:00</div>
+
+            <div style="display: flex;" class="heart">
+                <div class="heart1">
+                    <img src="icon/heart.png" alt="">
+                </div>
+                <div class="heart2">
+                    <img src="icon/heart.png" alt="">
+                </div>
+                <div class="heart3">
+                    <img src="icon/unheart.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="Question">
+            <div class="Quest01">
+                <h1>
+                    What is the capital of Italy?
+                </h1>
+            </div>
+            <div class="answer">
+                <div class="answer01 Answer-A">
+                    <span>A</span>
+                    <p>Venice</p>
+                </div>
+                <div class="answer01 Answer-B">
+                    <span>B</span>
+                    <p>Florence</p>
+                </div>
+                <div class="answer01 Answer-C">
+                    <span>C</span>
+                    <p>Rome</p>
+                </div>
+                <div class="answer01 Answer-D">
+                    <span>D</span>
+                    <p>Naples</p>
+                </div>
+            </div>
+        </div>
+        <div class="Exit">
+            
+            <button >
+                <a href="index.html">
+                    <img src="icon/exit.png" alt="">
+                </a>
+            </button>
+        </div>
+    </div>
+
+    <script>
+
+
+        var secounds = 180,
+            countDiv = document.getElementById('time'),
+
+            secoundsPass,
+
+            countDown = setInterval(function () {
+                "use strict";
+                secoundsPass();
+            }, 1000);
+
+            function secoundsPass() {
+                "use strict";
+                var minutes = Math.floor(secounds / 60),
+                remSeconds = secounds % 60;
+                if (secounds < 10) {
+                    remSeconds = '0'+ remSeconds;
+                }
+                if (minutes < 10) {
+                    minutes = "0" + minutes;
+                }
+                countDiv.innerHTML = minutes + ":" + remSeconds
+                if (secounds > 0) {
+                    secounds -= 1; 
+                } else {
+                    clearInterval(countDown);
+                    countDiv.innerHTML = "Done"
+                }
+            }
+
+    </script>
+</body>
+
+</html>

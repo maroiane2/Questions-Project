@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.boxAll {
+    width: 1000px;
+    height: 600px;
+    background-color: #87cad0;
+    margin: 25px auto 0 auto;
+    display: grid;
+    grid-template-rows: 60px auto 30px;
+    padding: 0 20px 0 20px;
+}
+
+.geogr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxAll .geogr .name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* time */
+
+.boxAll .geogr .time {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    font-size: x-large;
+}
+
+
+.heart1,
+.heart2,
+.heart3 {
+    margin: 5px;
+}
+
+
+.boxAll .Question {
+    display: grid;
+    grid-template-rows: 200px auto;
+}
+
+.boxAll .Question .Quest01 {
+    text-align: center;
+    border: #000 solid 1px;
+    padding-top: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.boxAll .Question .answer {
+    border: #000 solid 1px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.boxAll .Question .answer .answer01 {
+    cursor: pointer;
+    border: #000 solid 1px;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #428c9e;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 30px auto;
+}
+
+.boxAll .Question .answer .answer01 span {
+    padding-top: 50%;
+    text-align: center;
+    border-right: solid 1px #000;
+}
+
+.boxAll .Question .answer .answer01 p {
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.boxAll .Exit {
+    text-align: right;
+}
+
+.boxAll .Exit button {
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #00000000;
+    border: none;
+}
