@@ -32,33 +32,28 @@
             </div>
         </div>
         <div class="Question">
-            <div class="Quest01">
-                <h1>
-                    What is the capital of Italy?
+            <div class="Quest01" id="Quest01">
+                <h1 id="Ques-name">
+                    
                 </h1>
             </div>
             <div class="answer">
-                <div class="answer01 Answer-A">
+                <main id="ANswer ANswer1" class="answer01 Answer-A">
                     <span>A</span>
-                    <p>Venice</p>
-                </div>
-                <div class="answer01 Answer-B">
+                </main>
+                <main id="ANswer ANswer2" class="answer01 Answer-B">
                     <span>B</span>
-                    <p>Florence</p>
-                </div>
-                <div class="answer01 Answer-C">
+                </main>
+                <main id="ANswer ANswer3" class="answer01 Answer-C">
                     <span>C</span>
-                    <p>Rome</p>
-                </div>
-                <div class="answer01 Answer-D">
+                </main>
+                <main id="ANswer ANswer4" class="answer01 Answer-D">
                     <span>D</span>
-                    <p>Naples</p>
-                </div>
+                </main>
             </div>
         </div>
         <div class="Exit">
-            
-            <button >
+            <button>
                 <a href="index.html">
                     <img src="icon/exit.png" alt="">
                 </a>
@@ -67,38 +62,33 @@
     </div>
 
     <script>
-
-
         var secounds = 180,
             countDiv = document.getElementById('time'),
-
             secoundsPass,
-
             countDown = setInterval(function () {
                 "use strict";
                 secoundsPass();
             }, 1000);
-
-            function secoundsPass() {
-                "use strict";
-                var minutes = Math.floor(secounds / 60),
+        function secoundsPass() {
+            "use strict";
+            var minutes = Math.floor(secounds / 60),
                 remSeconds = secounds % 60;
-                if (secounds < 10) {
-                    remSeconds = '0'+ remSeconds;
-                }
-                if (minutes < 10) {
-                    minutes = "0" + minutes;
-                }
-                countDiv.innerHTML = minutes + ":" + remSeconds
-                if (secounds > 0) {
-                    secounds -= 1; 
-                } else {
-                    clearInterval(countDown);
-                    countDiv.innerHTML = "Done"
-                }
+            if (secounds < 10) {
+                remSeconds = '0' + remSeconds;
             }
-
+            if (minutes < 10) {
+                minutes = "0" + minutes;
+            }
+            countDiv.innerHTML = minutes + ":" + remSeconds
+            if (secounds > 0) {
+                secounds -= 1;
+            } else {
+                clearInterval(countDown);
+                countDiv.innerHTML = "Done"
+            }
+        }
     </script>
+    <script src="js/scrept.js"></script>
 </body>
 
 </html>
