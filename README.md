@@ -1,10 +1,14 @@
+
+
 Done
 01 - Create JSON Object For Questions
 02 - Start Creating HTML Markup
 03 - add Dummy Data
+04 - Create The Styling
+
+
 
 In Progress
-04 - Create The Styling
 05 - Fatch Number Of Question Frome JSON Object
 06 - Show Questions Count + Qoestions Categrory
 07 - Show The Number Of Bullets and Wrong Answers

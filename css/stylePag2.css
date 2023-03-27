@@ -4,14 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #000;
-}
-
 .boxAll {
     width: 1000px;
     height: 600px;
-    background-color: #87cad0;
+    background-color: #dddddd;
     margin: 25px auto 0 auto;
     display: grid;
     grid-template-rows: 60px auto 30px;
@@ -56,7 +52,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.boxAll .Question .answer {
+.boxAll .Question .answer-area {
     border: #000 solid 1px;
     margin-top: 10px;
     display: flex;
@@ -65,28 +61,48 @@ body {
     align-content: space-around;
 }
 
-.boxAll .Question .answer .answer01 {
+.boxAll .Question .answer-area .answer {
     cursor: pointer;
     border: #000 solid 1px;
     width: 350px;
     height: 50px;
     border-radius: 5px;
-    background-color: #428c9e;
+    background-color: #b1b1b1;
     color: #fff;
     display: grid;
     grid-template-columns: 30px auto;
 }
 
-.boxAll .Question .answer .answer01 span {
-    padding-top: 50%;
-    text-align: center;
-    border-right: solid 1px #000;
-}
 
-.boxAll .Question .answer .answer01 p {
-    margin: 15px;
+
+.boxAll .Question .answer-area .answer  {
+    padding-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.boxAll .Question .answer-area .answer h2 {
+    margin-top: 37%;
+
+}
+
+.boxAll .Question .answer-area .answer input {
+    margin-right: 10px;
+    /* visibility: hidden; */
+    display: none;
+}
+
+.boxAll .Question .answer-area .answer input:checked + label {
+    color: rgb(255, 255, 255);
+    border-bottom: #000 solid 1px;
+    background-color: rgb(136, 148, 218);
+}
+
+.boxAll .Question .answer-area .answer label {
+    border-radius: 10px 0 0 10px;
+    padding: 14.5px;
+    border-left: #000 solid 1px;
+} 
+
 
 
 .boxAll .Exit {
