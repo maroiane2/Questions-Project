@@ -1,9 +1,9 @@
 Done
 01 - Create JSON Object For Questions
-
-In Progress
 02 - Start Creating HTML Markup
 03 - add Dummy Data
+
+In Progress
 04 - Create The Styling
 05 - Fatch Number Of Question Frome JSON Object
 06 - Show Questions Count + Qoestions Categrory
