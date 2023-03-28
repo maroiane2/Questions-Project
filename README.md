@@ -4,15 +4,15 @@
 ### 02 - Start Creating HTML Markup
 ### 03 - add Dummy Data
 ### 04 - Create The Styling
+### 05 - Fatch Number Of Question Frome JSON Object
+### 06 - Show Questions Count + Qoestions Categrory
+### 07 - Show The Number Of Bullets and Wrong Answers
 
-<br>
 <br>
 <br>
 
 ## InProgress
-### 05 - Fatch Number Of Question Frome JSON Object
-### 06 - Show Questions Count + Qoestions Categrory
-### 07 - Show The Number Of Bullets and Wrong Answers
+
 ### 08 - Set The Nummbrt For The Right and Wrong Answers
 ### 09 - Create Countdown Timer
 ### 10 - Fetch The Questions From The JSON Object
@@ -22,7 +22,6 @@
 ### 14 - add Class on Bullet After Answeing The Question
 ### 15 - If Questions Finished Show the REsult
 
-<br>
 <br>
 <br>
 

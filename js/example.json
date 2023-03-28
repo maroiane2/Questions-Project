@@ -1,83 +1,83 @@
 [
     {
         "title": "What is he capital of Italy?",
-        "A": "Venice",
-        "B": "Florence",
-        "C": "Rome",
-        "D": "Naples",
+        "answer_1": "Venice",
+        "answer_2": "Florence",
+        "answer_3": "Rome",
+        "answer_4": "Naples",
         "right_answer": "Rome"
     },
     {
         "title": "Which river flows through London?",
-        "A": "River Severn",
-        "B": "River Trent",
-        "C": "River Thames",
-        "D": "River Great Ouse",
+        "answer_1": "River Severn",
+        "answer_2": "River Trent",
+        "answer_3": "River Thames",
+        "answer_4": "River Great Ouse",
         "right_answer": "River Thames"
     },
     {
         "title": "On which continent is the Sahara Desert located?",
-        "A": "Asia",
-        "B": "South America",
-        "C": "Africa",
-        "D": "Europe",
+        "answer_1": "Asia",
+        "answer_2": "South America",
+        "answer_3": "Africa",
+        "answer_4": "Europe",
         "right_answer": "Africa"
     },
     {
         "title": "In which US state can you find the city of Chicago?",
-        "A": "Arizona",
-        "B": "Illinois",
-        "C": "Missouri",
-        "D": "Mississippi",
+        "answer_1": "Arizona",
+        "answer_2": "Illinois",
+        "answer_3": "Missouri",
+        "answer_4": "Mississippi",
         "right_answer": "Illinois"
     },
     {
         "title": "How many time zones have France?",
-        "A": "1",
-        "B": "2",
-        "C": "6",
-        "D": "12",
+        "answer_1": "1",
+        "answer_2": "answer",
+        "answer_3": "6",
+        "answer_4": "12",
         "right_answer": "12"
     },
     {
         "title": "Which country is not home to Lake Victoria?",
-        "A": "Uganda",
-        "B": "Tanzania",
-        "C": "Rwanda",
-        "D": "Kenya",
+        "answer": "Uganda",
+        "answer_2": "Tanzania",
+        "answer_3": "Rwanda",
+        "answer_4": "Kenya",
         "right_answer": "Rwanda"
     },
     {
         "title": "How many islands are there in Sweden?",
-        "A": "7,570",
-        "B": "67,570",
-        "C": "167,570", 
-        "D": "267,570",
+        "answer": "7,570",
+        "answer_2": "67,570",
+        "answer_3": "167,570", 
+        "answer_4": "267,570",
         "right_answer": "267,570"
     }, 
     
     {
         "title": "What is the highest mountain in Scotland?",
-        "A": "Ben Macdui",
-        "B": "Braeriach",
-        "C": "Ben Nevis",
-        "D": "Cairn Toul",
+        "answer": "Ben Macdui",
+        "answer_2": "Braeriach",
+        "answer_3": "Ben Nevis",
+        "answer_4": "Cairn Toul",
         "right_answer": "Ben Nevis"
     },
     {
         "title": "How many countries are there in the world?",
-        "A": "105",
-        "B": "145",
-        "C": "195", 
-        "D": "245",
+        "answer": "105",
+        "answer_2": "145",
+        "answer_3": "195", 
+        "answer_4": "245",
         "right_answer": "195"
     },
     {
         "title": "Which country is not located on the Golden Triangle?",
-        "A": "Thailand",
-        "B": "Laos",
-        "C": "Myanmar", 
-        "D": "China",
+        "answer": "Thailand",
+        "answer_2": "Laos",
+        "answer_3": "Myanmar", 
+        "answer_4": "China",
         "right_answer": "China"
     }
 ]

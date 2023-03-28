@@ -32,27 +32,19 @@
     font-size: x-large;
 }
 
-
-.heart1,
-.heart2,
-.heart3 {
-    margin: 5px;
-}
-
-
 .boxAll .Question {
     display: grid;
     grid-template-rows: 200px auto;
 }
 
-.boxAll .Question .Quest01 {
+.boxAll .Question .Quest {
     text-align: center;
     border: #000 solid 1px;
     padding-top: 76px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.boxAll .Question .answer-area {
+.boxAll .Question .answer_area {
     border: #000 solid 1px;
     margin-top: 10px;
     display: flex;
@@ -61,7 +53,7 @@
     align-content: space-around;
 }
 
-.boxAll .Question .answer-area .answer {
+.boxAll .Question .answer_area .answer {
     cursor: pointer;
     border: #000 solid 1px;
     width: 350px;
@@ -75,43 +67,56 @@
 
 
 
-.boxAll .Question .answer-area .answer  {
+.boxAll .Question .answer_area .answer  {
     padding-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.boxAll .Question .answer-area .answer h2 {
+.boxAll .Question .answer_area .answer h2 {
     margin-top: 37%;
-
+    margin-left: 3px;
 }
 
-.boxAll .Question .answer-area .answer input {
+.boxAll .Question .answer_area .answer input {
     margin-right: 10px;
     /* visibility: hidden; */
     display: none;
 }
 
-.boxAll .Question .answer-area .answer input:checked + label {
+.boxAll .Question .answer_area .answer input:checked + label {
     color: rgb(255, 255, 255);
     border-bottom: #000 solid 1px;
     background-color: rgb(136, 148, 218);
 }
 
-.boxAll .Question .answer-area .answer label {
+.boxAll .Question .answer_area .answer label {
     border-radius: 10px 0 0 10px;
     padding: 14.5px;
     border-left: #000 solid 1px;
 } 
 
+.spans {
+    display: flex;
+}
+.spans span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(156, 156, 156);
+    margin: 5px;
+}
 
 
 .boxAll .Exit {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
 }
-
+.boxAll .Exit .on {
+    background-color: rgb(61, 137, 236);
+}
 .boxAll .Exit button {
     cursor: pointer;
-    margin-top: 5px;
     background-color: #00000000;
     border: none;
 }
+
