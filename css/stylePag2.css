@@ -34,7 +34,7 @@
 
 .boxAll .Question {
     display: grid;
-    grid-template-rows: 200px auto;
+    grid-template-rows: 200px auto 0px 0px;
 }
 
 .boxAll .Question .Quest {
@@ -65,8 +65,6 @@
     grid-template-columns: 30px auto;
 }
 
-
-
 .boxAll .Question .answer_area .answer  {
     padding-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -79,7 +77,6 @@
 
 .boxAll .Question .answer_area .answer input {
     margin-right: 10px;
-    /* visibility: hidden; */
     display: none;
 }
 
@@ -106,7 +103,6 @@
     margin: 5px;
 }
 
-
 .boxAll .Exit {
     display: flex;
     justify-content: space-between;
@@ -118,5 +114,17 @@
     cursor: pointer;
     background-color: #00000000;
     border: none;
+    margin: 0px;
 }
 
+/* .boxAll .Question button {
+    margin: 10px 0;
+    background-color: rgba(48, 90, 231, 0.685);
+    font-size: x-large;
+} */
+
+.results {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* border: #000 solid 2px; */
+}

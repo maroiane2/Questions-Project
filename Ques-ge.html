@@ -24,50 +24,50 @@
         <div class="Question">
             <div class="Quest" id="Quest"></div>
             <div class="answer_area"></div>
+            <button style="visibility: hidden;" class="buto">submit Answer</button>
+            <h2 class="results"></h2>
         </div>
+
         <div class="Exit">
-
             <div class="bullets">
-                <div class="spans">
-
-                </div>
+                <div class="spans"></div>
             </div>
-
             <button>
                 <a href="index.html">
                     <img src="icon/exit.png" alt="">
                 </a>
             </button>
+            
         </div>
     </div>
 
     <script>
         // timer
-        var secounds = 180,
-            countDiv = document.getElementById('time'),
-            secoundsPass,
-            countDown = setInterval(function () {
-                "use strict";
-                secoundsPass();
-            }, 1000);
-        function secoundsPass() {
-            "use strict";
-            var minutes = Math.floor(secounds / 60),
-                remSeconds = secounds % 60;
-            if (secounds < 10) {
-                remSeconds = '0' + remSeconds;
-            }
-            if (minutes < 10) {
-                minutes = "0" + minutes;
-            }
-            countDiv.innerHTML = minutes + ":" + remSeconds
-            if (secounds > 0) {
-                secounds -= 1;
-            } else {
-                clearInterval(countDown);
-                countDiv.innerHTML = "Done"
-            }
-        }
+        // var secounds = 59,
+        //     countDiv = document.getElementById('time'),
+        //     secoundsPass,
+        //     countDown = setInterval(function () {
+        //         "use strict";
+        //         secoundsPass();
+        //     }, 1000);
+        // function secoundsPass() {
+        //     "use strict";
+        //     var minutes = Math.floor(secounds / 60),
+        //         remSeconds = secounds % 60;
+        //     if (secounds < 10) {
+        //         remSeconds = '0' + remSeconds;
+        //     }
+        //     if (minutes < 10) {
+        //         minutes = "0" + minutes;
+        //     }
+        //     countDiv.innerHTML = minutes + ":" + remSeconds
+        //     if (secounds > 0) {
+        //         secounds -= 1;
+        //     } else {
+        //         clearInterval(countDown);
+        //         countDiv.innerHTML = "Done"
+        //     }
+        // }
         // ...
     </script>
     <script src="js/scrept.js"></script>

@@ -34,14 +34,14 @@
     {
         "title": "How many time zones have France?",
         "answer_1": "1",
-        "answer_2": "answer",
+        "answer_2": "4",
         "answer_3": "6",
         "answer_4": "12",
         "right_answer": "12"
     },
     {
         "title": "Which country is not home to Lake Victoria?",
-        "answer": "Uganda",
+        "answer_1": "Uganda",
         "answer_2": "Tanzania",
         "answer_3": "Rwanda",
         "answer_4": "Kenya",
@@ -49,7 +49,7 @@
     },
     {
         "title": "How many islands are there in Sweden?",
-        "answer": "7,570",
+        "answer_1": "7,570",
         "answer_2": "67,570",
         "answer_3": "167,570", 
         "answer_4": "267,570",
@@ -58,7 +58,7 @@
     
     {
         "title": "What is the highest mountain in Scotland?",
-        "answer": "Ben Macdui",
+        "answer_1": "Ben Macdui",
         "answer_2": "Braeriach",
         "answer_3": "Ben Nevis",
         "answer_4": "Cairn Toul",
@@ -66,7 +66,7 @@
     },
     {
         "title": "How many countries are there in the world?",
-        "answer": "105",
+        "answer_1": "105",
         "answer_2": "145",
         "answer_3": "195", 
         "answer_4": "245",
@@ -74,7 +74,7 @@
     },
     {
         "title": "Which country is not located on the Golden Triangle?",
-        "answer": "Thailand",
+        "answer_1": "Thailand",
         "answer_2": "Laos",
         "answer_3": "Myanmar", 
         "answer_4": "China",
