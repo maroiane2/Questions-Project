@@ -5,8 +5,11 @@
 ### 03 - add Dummy Data
 ### 04 - Create The Styling
 
+<br>
+<br>
+<br>
 
-## In Progress
+## InProgress
 ### 05 - Fatch Number Of Question Frome JSON Object
 ### 06 - Show Questions Count + Qoestions Categrory
 ### 07 - Show The Number Of Bullets and Wrong Answers
@@ -19,6 +22,9 @@
 ### 14 - add Class on Bullet After Answeing The Question
 ### 15 - If Questions Finished Show the REsult
 
+<br>
+<br>
+<br>
 
 ## Ideas
 ### - Many JSON Objects and Choose Langauge
