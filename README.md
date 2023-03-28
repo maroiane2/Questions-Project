@@ -8,7 +8,7 @@
 
 
 
-In Progress
+## In Progress
 ### 05 - Fatch Number Of Question Frome JSON Object
 
 ### 06 - Show Questions Count + Qoestions Categrory
@@ -22,7 +22,7 @@ In Progress
 14 - add Class on Bullet After Answeing The Question
 15 - If Questions Finished Show the REsult
 
-Ideas
+## Ideas
 - Many JSON Objects and Choose Langauge
 - Add Many Questions and Choose Only 10 Fandomly
 - Randomize Answers ( Shuffle Function )
