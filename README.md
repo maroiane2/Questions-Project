@@ -9,8 +9,9 @@ Done
 
 
 In Progress
-05 - Fatch Number Of Question Frome JSON Object
-06 - Show Questions Count + Qoestions Categrory
+### 05 - Fatch Number Of Question Frome JSON Object
+
+### 06 - Show Questions Count + Qoestions Categrory
 07 - Show The Number Of Bullets and Wrong Answers
 08 - Set The Nummbrt For The Right and Wrong Answers
 09 - Create Countdown Timer
