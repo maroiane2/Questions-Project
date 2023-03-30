@@ -63,7 +63,7 @@ function getQuestions() {
         }
     };
 
-    myRequest.open("GET", "js/example.json", true);
+    myRequest.open("GET", "js/film.json", true);
     myRequest.send();
 }
 
@@ -125,11 +125,6 @@ function addQuestionData(obj, count) {
             radioInput.id = `answer_${i}`;
             radioInput.dataset.answer = obj[`answer_${i}`];
 
-            // // Make first Option selcted
-            // if (i === 1) {
-            //     radioInput.checked = true;///////////////////////////
-            // }
-
             // create label
             let theLabal = document.createElement("label");
 
@@ -169,6 +164,7 @@ function checkAnswer(rAnswer, count) {
         window.alert("answer true")
     }else{
         window.alert("answer false")
+        window.alert(`answer true is : => ${rAnswer}`)
     }
 };
 
@@ -178,10 +174,10 @@ function handleBullets() {
     arrayOfSpans.forEach((span, index) => {
         if (currentIndex === index) {
             span.className = "on";
-        };
+        }
     })
 }
-// finsh
+
 function showResults(count) {
     let theResults;
     if (currentIndex === count) {
@@ -198,12 +194,13 @@ function showResults(count) {
         } else {
             theResults = `<span class="bad">bad</span>, ${RightAnswer} from ${count} this Is not Good.`;
         }
+        // resultsContainer.styl.display= "au";
         resultsContainer.innerHTML = theResults;
         resultsContainer.style.margin = '227px';
         resultsContainer.style.border = '#000 solid px';
     }
 }
-// timer
+
 function countdown(duration, count) {
     if (currentIndex < count) {
         let minutes, seconds;

@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #000;
+}
 
 .boxAll {
     width: 1000px;
@@ -108,23 +111,16 @@
     justify-content: space-between;
 }
 .boxAll .Exit .on {
-    background-color: rgb(61, 137, 236);
+    background-color: rgb(29, 29, 29);
 }
 .boxAll .Exit button {
     cursor: pointer;
-    background-color: #00000000;
+    background-color: #2e2e2e00;
     border: none;
     margin: 0px;
 }
 
-/* .boxAll .Question button {
-    margin: 10px 0;
-    background-color: rgba(48, 90, 231, 0.685);
-    font-size: x-large;
-} */
-
 .results {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    /* border: #000 solid 2px; */
 }

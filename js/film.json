@@ -1,0 +1,82 @@
+[
+    {
+        "title": "WHAT WAS THE FIRST FEATURE-LENGTH ANIMATED MOVIE EVER RELEASED?",
+        "answer_1": "Fantasia",
+        "answer_2": "Snow White and the Seven Dwarfs",
+        "answer_3": "Steamboat Willie",
+        "answer_4": "Dumbo",
+        "right_answer": "Snow White and the Seven Dwarfs"
+    },
+    {
+        "title":"IN WHAT 1976 MOVIE DOES ROBERT DE NIRO SAY THE FAMOUS LINE, “YOU TALKIN’ TO ME?”",
+        "answer_1":"Meet the Fockers",
+        "answer_2":"The Godfather",
+        "answer_3":"Taxi Driver",
+        "answer_4":"Goodfellas",
+        "right_answer":"Taxi Driver"
+    },
+    {
+        "title":"FOR WHAT MOVIE DID STEVEN SPIELBERG WIN HIS FIRST OSCAR FOR BEST DIRECTOR?",
+        "answer_1":"The Post",
+        "answer_2":"E.T.",
+        "answer_3":"Lincoln",
+        "answer_4":"Schindler’s List",
+        "right_answer":"Schindler’s List"
+    },
+    {
+        "title":"WHAT IS THE HIGHEST GROSSING MOVIE OF ALL TIME?",
+        "answer_1":"Avengers: Endgame",
+        "answer_2":"Titanic",
+        "answer_3":"Avatar",
+        "answer_4":"Gone with the Wind",
+        "right_answer":"Avatar"
+    },
+    {
+        "title":"WHAT WAS QUENTIN TARANTINO’S FIRST FILM AS WRITER AND DIRECTOR?",
+        "answer_1":"Pulp Fiction",
+        "answer_2":"Reservoir Dogs",
+        "answer_3":"Jackie Brown",
+        "answer_4":"From Dusk Til Dawn",
+        "right_answer":"Reservoir Dogs"
+    },
+    {
+        "title":"WHAT IS THE NAME OF THE RESORT FEATURED IN DIRTY DANCING?",
+        "answer_1":"Kellerman’s",
+        "answer_2":"Brown’s",
+        "answer_3":"Johnson’s",
+        "answer_4":"Davison’s",
+        "right_answer":"Kellerman’s"
+    },
+    {
+        "title":"WHERE IS JURASSIC PARK LOCATED IN THE FILM?",
+        "answer_1":"Isla Nublar",
+        "answer_2":"Maui",
+        "answer_3":"Bora Bora",
+        "answer_4":"Santorini",
+        "right_answer":"Isla Nublar"
+    },
+    {
+        "title":"WHAT COLOR DO MEAN GIRLS WEAR ON WEDNESDAY?",
+        "answer_1":"Purple",
+        "answer_2":"Yellow",
+        "answer_3":"Pink",
+        "answer_4":"Black",
+        "right_answer":"Pink"
+    },
+    {
+        "title":"WHAT WAS THE NAME OF THE PET LLAMA IN NAPOLEON DYNAMITE?",
+        "answer_1":"Tina",
+        "answer_2":"Janet",
+        "answer_3":"Jane",
+        "answer_4":"Tara",
+        "right_answer":"Tina"
+    },
+    {
+        "title":"WHICH MUSICAL BASED ON ROMEO AND JULIET WON AN OSCAR?",
+        "answer_1":"Grease",
+        "answer_2":"West Side Story",
+        "answer_3":"The Sound of Music",
+        "answer_4":"The Wizard of Oz",
+        "right_answer":"West Side Story"
+    }
+]
