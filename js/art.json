@@ -1,0 +1,82 @@
+[
+    {
+        "title":"What kind of artwork is Vacca’s Lion?",
+        "answer_1":"A painting",
+        "answer_2":"A sculpture",
+        "answer_3":"An engraving",
+        "answer_4":"A fresco",
+        "right_answer":"A fresco"
+    },    
+    {
+        "title":"Which of the following artists did not paint during the Dutch Golden Age?",
+        "answer_1":"Rembrandt",
+        "answer_2":"Paulus Potter",
+        "answer_3":"Frans Hals",
+        "answer_4":"Cornelis van Noorde",
+        "right_answer":"Rembrandt"
+    },    
+    {
+        "title":"Which one of the following artist wasn’t Spanish?",
+        "answer_1":"Claude Monet",
+        "answer_2":"Pablo Picasso",
+        "answer_3":"Salvador Dali",
+        "answer_4":"Francisco Goya",
+        "right_answer":"Claude Monet"
+    },    
+    {
+        "title":"Who painted ‘American Gothic’?",
+        "answer_1":"Grant Wood",
+        "answer_2":"Andy Warhol",
+        "answer_3":"James Whistler",
+        "answer_4":"Yellow period",
+        "right_answer":"Grant Wood"
+    },    
+    {
+        "title":"Who wrote The Little Prince?",
+        "answer_1":"Roald Dahl",
+        "answer_2":"Antoine de Saint-Exupéry",
+        "answer_3":"Beatrix Potter",
+        "answer_4":"C.S. Lewis",
+        "right_answer":"Antoine de Saint-Exupéry"
+    },    
+    {
+        "title":"Which art movement is Picasso known for?",
+        "answer_1":"Impressionism",
+        "answer_2":"Futurism",
+        "answer_3":"Romanticism",
+        "answer_4":"Cubism",
+        "right_answer":"Cubism"
+    },    
+    {
+        "title":"How many paintings did Van Gogh sell during his lifetime?",
+        "answer_1":"1",
+        "answer_2":"10",
+        "answer_3":"100",
+        "answer_4":"1000",
+        "right_answer":"1"
+    },    
+    {
+        "title":"How many people can you see on Nighthawks by Edward Hopper?",
+        "answer_1":"0",
+        "answer_2":"1",
+        "answer_3":"4",
+        "answer_4":"8",
+        "right_answer":"4"
+    },    
+    {
+        "title":"Which country is ‘Notes from a Small Island’ by Bill Bryson about?",
+        "answer_1":"UK",
+        "answer_2":"USA",
+        "answer_3":"France",
+        "answer_4":"Poland",
+        "right_answer":"UK"
+    },    
+    {
+        "title":"How much is the cash award for winning a Pulitzer Prize?",
+        "answer_1":"$1,500",
+        "answer_2":"$15,000",
+        "answer_3":"$150,000",
+        "answer_4":"$1,500,000",
+        "right_answer":"$15,000"
+    }
+]
